@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource
           kernel-dir: lmi-4.19
           kernel-branch: lmi-q-oss
-          config: vendor/lmi_user_defconfig
+          config: cuttlefish_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true

@@ -16,15 +16,15 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource
-          kernel-dir: lmi-4.19
+          kernel-dir: common
           kernel-branch: lmi-q-oss
           config: cuttlefish_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           ksu: true
-          ksu-version: 0.9.5
-          android-version: 12
-          aosp-clang-version: r383902
+          ksu-version: main
+          android-version: 11
+          aosp-clang-version: r365631c
           disable-lto: true
           anykernel3: true
